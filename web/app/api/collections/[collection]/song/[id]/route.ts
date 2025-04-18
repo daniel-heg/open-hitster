@@ -1,16 +1,21 @@
 export const runtime = 'edge';
 
+interface Links {
+    youtube: string;
+}
+
 interface Song {
     id: string | number;
     title: string;
     artist: string;
     year: string | number;
+    links: Links;
 }
 
 export async function GET(request: Request) {
     const { searchParams, origin } = new URL(request.url);
     const collection = searchParams.get('collection');
-    const id = searchParams.get('songId');
+    const id = searchParams.get('id');
 
     if (!collection || !id) {
         return new Response('Missing collection or id', { status: 400 });
