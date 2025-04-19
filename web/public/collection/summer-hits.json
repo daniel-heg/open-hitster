@@ -4,8 +4,9 @@
     "title": "Despacito",
     "artist": "Luis Fonsi ft. Daddy Yankee",
     "year": 2017,
-    "links": {
-      "youtube": "https://www.youtube.com/watch?v=gGsqTwENFMI"
+    "ids": {
+      "youtube": "gGsqTwENFMI",
+      "spotify": "6habFhsOp2NvshLv26DqMb"
     }
   },
   {
@@ -13,8 +14,9 @@
     "title": "Blinding Lights",
     "artist": "The Weeknd",
     "year": 2020,
-    "links": {
-      "youtube": "https://www.youtube.com/watch?v=fHI8X4OXluQ"
+    "ids": {
+      "youtube": "fHI8X4OXluQ",
+      "spotify": "0VjIjW4GlUZAMYd2vXMi3b"
     }
   },
   {
@@ -22,8 +24,9 @@
     "title": "Levitating",
     "artist": "Dua Lipa ft. DaBaby",
     "year": 2020,
-    "links": {
-      "youtube": "https://www.youtube.com/watch?v=TUVcZfQe-Kw"
+    "ids": {
+      "youtube": "TUVcZfQe-Kw",
+      "spotify": "5uu0D02efCoFMQiLYFT32e"
     }
   },
   {
@@ -31,8 +34,9 @@
     "title": "Watermelon Sugar",
     "artist": "Harry Styles",
     "year": 2019,
-    "links": {
-      "youtube": "https://www.youtube.com/watch?v=7-x3uD5z1bQ"
+    "ids": {
+      "youtube": "7-x3uD5z1bQ",
+      "spotify": "6UelLqGlWMcVH1E5c4H7lY"
     }
   },
   {
@@ -40,8 +44,9 @@
     "title": "Can’t Stop the Feeling!",
     "artist": "Justin Timberlake",
     "year": 2016,
-    "links": {
-      "youtube": "https://www.youtube.com/watch?v=ru0K8uYEZWw"
+    "ids": {
+      "youtube": "ru0K8uYEZWw",
+      "spotify": "6JV2JOEocMgcZxYSZelKcc"
     }
   }
 ]

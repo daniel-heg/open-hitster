@@ -35,7 +35,9 @@ export async function GET(request: Request) {
 
   if (result.status != 200) throw new Error("response is not OK");
 
-  const { access_token } = await result.json();
+  const response = await result.json();
 
-  return new Response(access_token);
+  return new Response(JSON.stringify(response), {
+    headers: { "Content-Type": "application/json" },
+  });
 }

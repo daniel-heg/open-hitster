@@ -1,7 +1,8 @@
 export const runtime = "edge";
 
-interface Links {
+interface IDs {
   youtube: string;
+  spotify: string;
 }
 
 interface Song {
@@ -9,7 +10,7 @@ interface Song {
   title: string;
   artist: string;
   year: string | number;
-  links: Links;
+  ids: IDs;
 }
 
 export async function GET(request: Request) {
